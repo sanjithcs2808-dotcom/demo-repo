@@ -3,7 +3,7 @@ public class arrayf {
 public static void main(String args[])
     {   
         Scanner scan= new Scanner(System.in);
-        System.out.println("Enter the size of the array:");
+        System.out.print("Enter the size of the array:");
         int n=scan.nextInt();
         int arr[]= new int[n];
     
@@ -16,7 +16,7 @@ public static void main(String args[])
         int max=arr[0];
         for (int i=1;i<n;i++) //largest
         {
-            if(arr[i]>max);
+            if(arr[i]>max)
             max=arr[i];
         }
         System.out.println("Largest:" +max);
